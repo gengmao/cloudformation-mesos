@@ -43,7 +43,7 @@ amazon-ebs output will be in this color.
 ==> amazon-ebs: Adding tags to AMI (ami-f26ca9f2)...
     amazon-ebs: Adding tag: "os:distribution": "Ubuntu"
     amazon-ebs: Adding tag: "os:release": "14.04 LTS"
-    amazon-ebs: Adding tag: "mesos:version": "0.21.1"
+    amazon-ebs: Adding tag: "mesos:version": "0.25.0"
 ==> amazon-ebs: Terminating the source AWS instance...
 ==> amazon-ebs: Deleting temporary security group...
 ==> amazon-ebs: Deleting temporary keypair...
@@ -52,12 +52,12 @@ Build 'amazon-ebs' finished.
 ==> Builds finished. The artifacts of successful builds are:
 --> amazon-ebs: AMIs were created:
 
-ap-northeast-1: ami-f26ca9f2
-ap-southeast-1: ami-50467b02
-ap-southeast-2: ami-79542943
-eu-west-1: ami-99fc9cee
-sa-east-1: ami-3944c124
-us-east-1: ami-0a878262
-us-west-1: ami-494eac0d
-us-west-2: ami-734a7f43
+ap-northeast-1: ami-46c4a746
+ap-southeast-1: ami-986477ca
+ap-southeast-2: ami-af531995
+eu-west-1: ami-5d724e2a
+sa-east-1: ami-9959c884
+us-east-1: ami-07653662
+us-west-1: ami-f976b6bd
+us-west-2: ami-94b95aa7
 ```
